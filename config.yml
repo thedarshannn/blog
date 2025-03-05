@@ -1,13 +1,15 @@
 languageCode: en-us
 baseURL: "https://yourdomain.com/"
 title: "Darshan Prajapati"
-paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+pagination:
+  pagerSize: 5
 
 params:
   editPost:
@@ -27,6 +29,19 @@ params:
         url: blogs
       - name: Projects
         url: projects
+  socialIcons:
+    - name: youtube
+      url: "https://youtube.com/devchannel"
+    - name: medium
+      url: "https://medium.com/@darshan"
+    - name: twitter
+      url: "https://twitter.com/darshanprajapati"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/darshan-prajapati/"
+    - name: github
+      url: "https://github.com/darshanprajapati"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/darshan"
 
 menu:
   main:
