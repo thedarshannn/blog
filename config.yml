@@ -1,0 +1,44 @@
+languageCode: en-us
+baseURL: "https://yourdomain.com/"
+title: "Darshan Prajapati"
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+params:
+  editPost:
+    Text: "Suggest Changes"
+  homeInfoParams:
+    Title: "Welcome! 👋"
+    Content: "This is the website of Darshan Prajapati. I create educational content on software development and tech."
+  profileMode:
+    enabled: true
+    title: "Welcome! 👋"
+    subtitle: "This is the website of **Darshan Prajapati**. I create educational content on software development and tech."
+    imageUrl: "/images/profile.png"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: Blog
+        url: blogs
+      - name: Projects
+        url: projects
+
+menu:
+  main:
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
